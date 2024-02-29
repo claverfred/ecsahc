@@ -1,8 +1,8 @@
 
 
 public class Answer1 {
-    public static void main(String[] args){
-        for(int i=0;i<=50;i++){
+    public static void popSnap(int n){
+        for(int i=0;i<=n;i++){
             if(i%3==0){
                 System.out.print("Pop"+" ,");//prints if the number is divisible by 3.
             }else if(i%5==0){
@@ -13,6 +13,9 @@ public class Answer1 {
             System.out.print(i);//otherwise, prints the number.
         }
         }
+    }
+    public static void main(String[] args){
+     popSnap(100);//calling the method.
     }
     
 }
